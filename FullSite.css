@@ -1,0 +1,164 @@
+body{
+  color: white;
+  font-family:mukta;
+}
+.box ::placeholder{
+  color: white;
+}
+.back{
+  position: fixed;
+  z-index: -1;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-size: cover;
+}
+.background{
+  display: flex;
+  height: 100vh;
+  justify-content:flex-start;
+  align-items:center;
+}
+.header{
+  position: fixed;
+  display: flex;
+  background: transparent;
+  backdrop-filter: blur(5px);
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 50px;
+  justify-content: space-around;  
+  align-items: center;
+  z-index: 5;
+}
+.siteName{
+  font-size: 35px;
+  font-weight: 600;
+  color: rgb(255, 56, 255);
+}
+.headerText{
+  font-weight: 600;
+}
+.headerSearch{
+  border: 1px solid rgb(255, 56, 255);
+  padding: 0px;
+  margin: 0;
+  border-radius: 8px 0px 0px 8px;
+  height: 33px;
+  padding-right: 60px;
+  padding-left: 10px;
+  border-right: 0px;
+}
+.header ::placeholder{
+  color: black;
+  font-size: 15px;
+  font-weight: 500;
+  
+}
+.search{
+  background-color: rgb(255, 56, 255);
+  color: white;
+  height: 34px;
+  border-radius: 0px 8px 8px 0px;
+  margin-left: -110px;
+  border: 0;
+  font-size: 15px;
+  font-weight: 500;
+}
+.intro{
+  font-size: 50px;
+  margin: 0;
+  padding: 0;
+  margin-left: 45px;
+}
+.description{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  margin-bottom: 20px;
+  font-size: 25px;
+  line-height: 20px;
+  max-width: 400px;
+  line-height: 1.5;
+  margin-left: 45px;
+}
+.button{
+  padding: 10px;
+  margin-left: 45px;
+  border-radius: 6px;
+  border:none;
+  background-color: rgb(255, 56, 255);
+  color: white;
+  font-size: 15px;
+  font-weight: 500;
+}
+.box{
+  z-index: 1;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  border: 1px solid rgb(255, 255, 255,0.4);
+  padding: 25px 40px;
+  background-color: rgb(116, 11, 81);
+  background: transparent;
+  backdrop-filter: blur(5px);
+  border-radius: 12px;
+  position: absolute;
+  top: 200px;
+  left: 1100px;
+}
+.login{
+  font-size: 30px;
+  font-weight: 600;
+  margin-top: 0px;
+}
+.input{
+  color: white;
+  border-radius: 20px;
+  padding: 10px 50px 10px 15px;
+  background: transparent;
+  backdrop-filter: blur(5px);
+  border: 1px solid rgb(255, 255, 255,0.4);
+
+}
+.input1{
+  color: white;
+  border-radius: 20px;
+  padding: 10px 50px 10px 15px;
+  margin-top: 20px;
+  border: 1px solid rgb(255, 255, 255,0.4);
+  background: transparent;
+  backdrop-filter: blur(5px);
+}
+.remember{
+  display: flex;
+  flex-direction: row;
+  font-size: 11px;
+}
+.blank{
+  margin-top: 11px;
+  margin-right: 6px;
+  height: 11px;
+  width: 1px;
+}
+.rem{
+  margin-right: 45px;
+}
+.log{
+  padding: 10px 100px;
+  border-radius: 24px;
+  border: none ;
+}
+.dont{
+  font-size: 11px;
+}
+.reg{
+  font-weight: 700;
+}
